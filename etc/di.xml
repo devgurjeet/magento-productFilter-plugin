@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config>
+	<type name="Magento\Catalog\Model\Product">
+		<plugin name="GSS_ProductFilter::After" type="GSS\ProductFilter\Plugin\ProductFilter" sortOrder="1" />
+	</type>
+</config>
